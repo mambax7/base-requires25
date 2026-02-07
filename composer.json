@@ -1,6 +1,12 @@
 {
   "name": "xoops/base-requires25",
   "description": "Primary dependencies for XOOPS/XoopsCore25, (meta-package, no code)",
+  "keywords": [
+    "xoops",
+    "cms",
+    "dependencies",
+    "metapackage"
+  ],
   "type": "metapackage",
   "license": "GPL-2.0-or-later",
   "authors": [
@@ -12,26 +18,47 @@
     }
   ],
   "require": {
-    "php": "^7.4.0 || ^8.4.0",
-    "xoops/regdom": "^2.0.2-beta1",
-    "xoops/xmf": "^1.2.33-beta1",
-    "boenrobot/money_format_polyfill": "^1.0.2",
+    "php": "^7.4 || ^8.0",
+    "boenrobot/money_format_polyfill": "^1.0",
     "ezyang/htmlpurifier": "^4.18",
     "phpmailer/phpmailer": "^6.10",
     "smarty/smarty": "^4.5.6",
-    "smottt/wideimage": "^1.1.4",
-    "symfony/polyfill-iconv": "^1.33.0",
-    "symfony/polyfill-mbstring": "^1.33.0",
-    "tecnickcom/tcpdf": "^6.10"
+    "smottt/wideimage": "^1.1",
+    "symfony/polyfill-iconv": "^1.33",
+    "symfony/polyfill-mbstring": "^1.33",
+    "tecnickcom/tcpdf": "^6.10",
+    "xoops/regdom": "^2.0.2-beta1@beta",
+    "xoops/xmf": "^1.2.33-beta2@beta"
+  },
+  "suggest": {
+    "ext-intl": "For locale-aware number/date formatting (replaces money_format polyfill)",
+    "ext-imagick": "For advanced image processing beyond GD"
+  },
+  "conflict": {
+    "smarty/smarty": ">=5.0"
   },
   "config": {
     "sort-packages": true,
     "preferred-install": "dist"
   },
-  "minimum-stability": "beta",
+  "minimum-stability": "stable",
   "prefer-stable": true,
   "support": {
     "issues": "https://github.com/XOOPS/XoopsCore25/issues",
     "source": "https://github.com/XOOPS/XoopsCore25"
-  }
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/XOOPS"
+    },
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/xoops"
+    },
+    {
+      "type": "custom",
+      "url": "https://xoops.org/modules/donations/"
+    }
+  ]
 }

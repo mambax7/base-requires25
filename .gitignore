@@ -5,3 +5,7 @@
 .idea/
 vendor/
 composer.lock
+
+# Build artifacts
+build/
+coverage.clover

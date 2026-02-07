@@ -1,5 +1,5 @@
 name: Feature Request
-description: This XOOPS Module is a work in progress! Let us know about a feature you would like to see in the module.
+description: This XOOPS base-requires25 metapackage is a work in progress! Let us know about a feature you would like to see.
 title: "[Feature Request]: "
 labels: ['Triage', 'Feature Request']
 body:
@@ -12,6 +12,6 @@ body:
 - type: textarea
   attributes:
     label: Benefits
-    description: Please provide some thoughts on how this feature may benefit others using the module.
+    description: Please provide some thoughts on how this feature may benefit others using the package.
   validations:
     required: true

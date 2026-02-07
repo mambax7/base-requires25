@@ -1,0 +1,13 @@
+build:
+  nodes:
+    analysis:
+      tests:
+        override:
+          - command: composer validate --strict --no-check-publish
+
+filter:
+  excluded_paths:
+    - 'docs/*'
+
+tools:
+  php_analyzer: false

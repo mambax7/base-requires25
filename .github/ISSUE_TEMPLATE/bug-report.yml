@@ -5,16 +5,16 @@ labels: ['Triage', 'Bug']
 body:
 - type: input
   attributes:
-    label: Module Version
-    description: Provide the Module version that you are using.
-    value: 1.54-beta
+    label: XOOPS Version
+    description: Provide the XOOPS version that you are using.
+    value: 2.5.12
   validations:
     required: true
 - type: dropdown
   attributes:
     label: PHP Version
     description: Provide the PHP version that you are using.
-    options: [ '7.4', '8.0','8.1','8.2','8.3', '8.4' ]
+    options: [ '7.4', '8.0','8.1','8.2','8.3', '8.4', '8.5' ]
     multiple: true
   validations:
     required: true
