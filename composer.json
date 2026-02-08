@@ -27,7 +27,7 @@
     "symfony/polyfill-iconv": "^1.33",
     "symfony/polyfill-mbstring": "^1.33",
     "tecnickcom/tcpdf": "^6.10",
-    "xoops/regdom": "^2.0.2-beta1@beta",
+    "xoops/regdom": "^2.0.2-beta3@beta",
     "xoops/xmf": "^1.2.33-beta2@beta"
   },
   "suggest": {
