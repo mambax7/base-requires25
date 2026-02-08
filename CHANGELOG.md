@@ -176,7 +176,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 * Require `ircmaxell/password-compat` `^1.0.4` — password_hash polyfill for PHP < 5.5
 * Require `smottt/wideimage` `1.1.2` — image processing library (GD)
 
-[Unreleased]: https://github.com/XOOPS/base-requires25/compare/v1.1.10-beta1...HEAD
+[1.1.10-beta2]: https://github.com/XOOPS/base-requires25/compare/v1.1.10-beta1...HEAD
 [1.1.10-beta1]: https://github.com/XOOPS/base-requires25/compare/v1.1.9...v1.1.10-beta1
 [1.1.9]: https://github.com/XOOPS/base-requires25/compare/v1.1.8...v1.1.9
 [1.1.8]: https://github.com/XOOPS/base-requires25/compare/v1.1.7...v1.1.8

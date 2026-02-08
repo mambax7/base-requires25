@@ -89,7 +89,7 @@ When updating `composer.json`:
 
 Even though this repo has no code, dependency choices affect security:
 
-- Prefer packages with active security advisories and responsive maintainers.
+- Prefer packages with active maintainers and responsive security teams.
 - Monitor Packagist and GitHub Security Advisories for CVEs in listed packages.
 - Pin to versions that include known security fixes (e.g., HTMLPurifier 4.19+ for backtracking fix).
 - Avoid abandoned packages that will never receive security patches.
