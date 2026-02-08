@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [1.1.10-beta2] - Unreleased
+## [1.1.10-beta2] - 2026-02-08
 
 ### Fixed
 * Fix PHP constraint from `^7.4.0 || ^8.4.0` to `^7.4 || ^8.0` — previous constraint excluded PHP 8.0-8.3
