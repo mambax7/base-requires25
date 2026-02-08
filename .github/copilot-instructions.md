@@ -10,7 +10,7 @@
 
 ## Project Layout
 
-```
+```text
 composer.json                    # The sole deliverable — defines all dependencies
 LICENSE                          # GPL-2.0
 README.md                        # Usage instructions
