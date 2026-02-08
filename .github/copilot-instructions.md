@@ -14,13 +14,10 @@
 composer.json                    # The sole deliverable — defines all dependencies
 LICENSE                          # GPL-2.0
 README.md                        # Usage instructions
-CLAUDE.md                        # AI assistant context
 .github/
   copilot-instructions.md        # This file
   CONTRIBUTING.md                # Contribution guidelines
   ISSUE_TEMPLATE/                # Bug report / feature request templates
-docs/
-  tasks.md                       # Improvement task tracker
 ```
 
 This is a **metapackage** — it contains no PHP source code, no classes, no templates. The only file that receives functional edits is `composer.json`.
