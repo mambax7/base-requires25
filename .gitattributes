@@ -15,4 +15,5 @@
 .gitattributes export-ignore
 .gitignore export-ignore
 .scrutinizer.yml export-ignore
+renovate.json export-ignore
 CLAUDE.md export-ignore
